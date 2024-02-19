@@ -71,34 +71,27 @@
     </div>
     <br>
     <br>
-  <div>
-    <div class="card">
-      about us
-      <br>
-      <div class="mb-8">
-        <label for="exampleFormControlInput1" class="form-label">Nama</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-      </div>
-      <div class="mb-8">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+
+  <div class="container">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">pesan</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
       </div>
-
-      <a href="#" class="btn btn-primary">See more</a>
-      <!-- <img src="data:image/png;base64,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" class="card-img-top" alt="..."> -->
-      <!-- <div class="card-body">
-        <h5 class="card-title">Big Hit Music (빅히트 뮤직)</h5>
-        <p class="card-text">Perusahaan hiburan asal Korea Selatan yang didirikan pada tahun 2005 oleh Bang Si-hyuk sebagai Big Hit Entertainment. Pada 2021, perusahaan ini mengelola penyanyi solo Lee Hyun, dan grup vokal pria BTS dan TXT</p>
-        <a href="#" class="btn btn-primary">See more</a>
-      </div> -->
-    </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
-
-
+  
   </div>
 
   
